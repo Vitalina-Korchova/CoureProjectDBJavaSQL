@@ -1,0 +1,38 @@
+.button:hover, #helpHowCalculatePublication:hover, #btnReloadPage:hover {
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 14, 0, 0, 0);
+}
+
+#btnLogout, #btnAddUser, #btnClient, #btnOrder, #btnAuthor, #btnPublication, #btnPrintingHouse,
+#btnFindInfo, #btnKeys, #btnPublicationAuthor{
+    -fx-effect: none;
+}
+
+#buttonSignIn{
+ -fx-background-color: #9C80EA;
+}
+
+#labelForgotpswrdSignIn:hover{
+ -fx-underline: true;
+ -fx-text-fill: #9C80EA;
+}
+
+#btnClient, #btnOrder, #btnAddUser, #btnAuthor, #btnKeys, #btnLogout, #btnPrintingHouse,
+ #btnPublication, #btnFindInfo, #btnPublicationAuthor {
+    -fx-background-color: none;
+}
+
+#btnClient:hover, #btnOrder:hover, #btnAddUser:hover, #btnAuthor:hover,  #btnKeys:hover,
+#btnLogout:hover, #btnPrintingHouse:hover, #btnPublication:hover, #btnFindInfo:hover, #btnPublicationAuthor:hover
+{
+    -fx-background-color: #bea9f7;
+}
+
+.clicked {
+    -fx-background-color: #bea9f7 !important;
+}
+
+.clicked:hover {
+    -fx-background-color: #bea9f7 !important;
+}
+
+
